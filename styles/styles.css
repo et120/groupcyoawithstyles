@@ -3,36 +3,40 @@
 }
 
 .buttonpurple {
-    background-color: #684cafa5; /* Purple */
+    background-color: #684cafa5;
     border: none;
     color: white;
     padding: 15px 32px;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 18px;
+    border-radius: 10px;
 }
 
 .buttongreen {
-    background-color: #4caf4fa5; /* Green */
+    background-color: #4caf4fa5;
     border: none;
     color: white;
     padding: 15px 32px;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 18px;
+    border-radius: 10px;
 }
 
 .buttonorange {
-    background-color: #c07134a5; /* Orange */
+    background-color: #c07134a5;
     border: none;
     color: white;
     padding: 15px 32px;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.buttonhover:hover {
+    color: rgba(11, 10, 10, 0.904)
 }
 
 body {
@@ -43,3 +47,23 @@ body {
 p {
     font-size: 30px;
 }
+
+.p0img {
+    width: 30%;
+}
+.p1img {
+    width: 40%;
+}
+.p2img {
+    width: 23%;
+}
+.p3img {
+    width: 45%;
+}
+.p4img {
+    width: 22%;
+}
+.p5img {
+    width: 43%;
+}
+
